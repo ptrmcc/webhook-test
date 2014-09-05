@@ -1,2 +1,2 @@
-require 'corkboard'
+require './hello'
 run Sinatra::Application
