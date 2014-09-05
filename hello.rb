@@ -7,5 +7,6 @@ post '/update' do
 	result = JSON.pretty_generate(data)
 # 	result = "HELLO = #" + data.keys.join(", ") + "#" + data["hello"]
 #	why doesn't data[:hello] work but data["hello"] does???
+	puts result
 	result
 end
